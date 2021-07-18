@@ -41,7 +41,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: rgb(4, 0, 255);
+	color: rgba(54, 149, 173, 0.705);
 }
 
 .cta {
@@ -49,7 +49,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid rgb(4, 0, 255);
+	border: 2px solid rgba(54, 149, 173, 0.705);
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -59,7 +59,8 @@ p {
 }
 .cta:hover {
 	color: white;
-	background-color: rgb(4, 0, 255);
+	background-color: rgba(54, 149, 173, 0.705);
+
 }
 .brand h1 {
 	font-size: 3rem;
@@ -67,7 +68,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: rgb(4, 0, 255);
+	color: rgb(255, 255, 255);
 }
 
 #header {
@@ -80,7 +81,7 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-color: rgba(54, 149, 173, 0.705);
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -138,7 +139,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: rgb(4, 0, 255);
+	color: rgba(54, 149, 173, 0.705);
 }
 #header .top {
 	height: 60px;
@@ -243,7 +244,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: rgb(4, 0, 255);
+	background-color: rgba(54, 149, 173, 0.705);
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -429,7 +430,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid rgb(4, 0, 255);
+	border: 7px solid rgba(54, 149, 173, 0.705);
 	z-index: -1;
 }
 
@@ -477,7 +478,7 @@ p {
 }
 
 #footer {
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-color: rgba(54, 149, 173, 0.705);;
 }
 #footer .footer {
 	min-height: 200px;
@@ -541,7 +542,7 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: rgb(4, 0, 255);
+		color: rgba(54, 149, 173, 0.705);
 		font-weight: 500;
 	}
 }
