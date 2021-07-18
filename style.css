@@ -140,7 +140,7 @@ p {
 #header .nav-list ul li:hover a {
 	color: rgb(4, 0, 255);
 }
-#header .hamburger {
+#header .top {
 	height: 60px;
 	width: 60px;
 	display: inline-block;
@@ -155,24 +155,24 @@ p {
 	transform: scale(0.8);
 	margin-right: 20px;
 }
-#header .hamburger:after {
+#header .top:after {
 	position: absolute;
 	content: '';
 	height: 100%;
 	width: 100%;
 	border-radius: 50%;
 	border: 3px solid white;
-	animation: hamburger_puls 1s ease infinite;
+	animation: top_puls 1s ease infinite;
 }
-#header .hamburger .bar {
+#header .top .bar {
 	height: 2px;
 	width: 30px;
 	position: relative;
 	background-color: white;
 	z-index: -1;
 }
-#header .hamburger .bar::after,
-#header .hamburger .bar::before {
+#header .top .bar::after,
+#header .top .bar::before {
 	content: '';
 	position: absolute;
 	height: 100%;
@@ -182,16 +182,16 @@ p {
 	transition: 0.3s ease;
 	transition-property: top, bottom;
 }
-#header .hamburger .bar::after {
+#header .top .bar::after {
 	top: 8px;
 }
-#header .hamburger .bar::before {
+#header .top .bar::before {
 	bottom: 8px;
 }
-#header .hamburger.active .bar::before {
+#header .top.active .bar::before {
 	bottom: 0;
 }
-#header .hamburger.active .bar::after {
+#header .top.active .bar::after {
 	top: 0;
 }
 
@@ -514,7 +514,7 @@ p {
 	font-size: 1.3rem;
 }
 
-@keyframes hamburger_puls {
+@keyframes top_puls {
 	0% {
 		opacity: 1;
 		transform: scale(1);
@@ -582,9 +582,7 @@ p {
 	#projects .all-projects .project-img {
 		height: 100%;
 	}
-	/* End Project */
-
-	/* About */
+	
 	#about .about {
 		flex-direction: row;
 	}
@@ -607,7 +605,7 @@ p {
 	#about .col-right h1 {
 		text-align: left;
 	}
-	/* End About */
+	
 
 	/* contact  */
 	#contact .contact {
@@ -648,7 +646,7 @@ p {
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 	/* header */
-	#header .hamburger {
+	#header .top {
 		display: none;
 	}
 	#header .nav-list ul {
